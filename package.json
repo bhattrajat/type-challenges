@@ -1,7 +1,9 @@
 {
-  "name": "nextjs-boilerplate",
+  "name": "type-challenges",
   "version": "0.1.0",
   "private": true,
+  "author": "Rajat Bhatt",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

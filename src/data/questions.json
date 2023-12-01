@@ -1,0 +1,902 @@
+{
+  "2": {
+    "tag": "infer",
+    "difficulty": "medium",
+    "name": "Return type",
+    "problem": "https://tsch.js.org/2/play"
+  },
+  "3": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Omit",
+    "problem": "https://tsch.js.org/3/play"
+  },
+  "4": {
+    "tag": "union",
+    "difficulty": "easy",
+    "name": "Pick",
+    "problem": "https://tsch.js.org/4/play"
+  },
+  "5": {
+    "tag": "utils",
+    "difficulty": "extreme",
+    "name": "Readonly keys",
+    "problem": "https://tsch.js.org/5/play"
+  },
+  "6": {
+    "tag": "vue",
+    "difficulty": "hard",
+    "name": "Simple vue",
+    "problem": "https://tsch.js.org/6/play"
+  },
+  "7": {
+    "tag": "readonly",
+    "difficulty": "easy",
+    "name": "Readonly",
+    "problem": "https://tsch.js.org/7/play"
+  },
+  "8": {
+    "tag": "readonly",
+    "difficulty": "medium",
+    "name": "Readonly 2",
+    "problem": "https://tsch.js.org/8/play"
+  },
+  "9": {
+    "tag": "readonly",
+    "difficulty": "medium",
+    "name": "Deep readonly",
+    "problem": "https://tsch.js.org/9/play"
+  },
+  "10": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Tuple to union",
+    "problem": "https://tsch.js.org/10/play"
+  },
+  "11": {
+    "tag": "object-keys",
+    "difficulty": "easy",
+    "name": "Tuple to object",
+    "problem": "https://tsch.js.org/11/play"
+  },
+  "12": {
+    "tag": "application",
+    "difficulty": "medium",
+    "name": "Chainable options",
+    "problem": "https://tsch.js.org/12/play"
+  },
+  "14": {
+    "tag": "array",
+    "difficulty": "easy",
+    "name": "First",
+    "problem": "https://tsch.js.org/14/play"
+  },
+  "15": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Last",
+    "problem": "https://tsch.js.org/15/play"
+  },
+  "16": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Pop",
+    "problem": "https://tsch.js.org/16/play"
+  },
+  "17": {
+    "tag": "array",
+    "difficulty": "hard",
+    "name": "Currying 1",
+    "problem": "https://tsch.js.org/17/play"
+  },
+  "18": {
+    "tag": "tuple",
+    "difficulty": "easy",
+    "name": "Tuple length",
+    "problem": "https://tsch.js.org/18/play"
+  },
+  "20": {
+    "tag": "promise",
+    "difficulty": "medium",
+    "name": "Promise all",
+    "problem": "https://tsch.js.org/20/play"
+  },
+  "43": {
+    "tag": "union",
+    "difficulty": "easy",
+    "name": "Exclude",
+    "problem": "https://tsch.js.org/43/play"
+  },
+  "55": {
+    "tag": "utils",
+    "difficulty": "hard",
+    "name": "Union to intersection",
+    "problem": "https://tsch.js.org/55/play"
+  },
+  "57": {
+    "tag": "utils",
+    "difficulty": "hard",
+    "name": "Get required",
+    "problem": "https://tsch.js.org/57/play"
+  },
+  "59": {
+    "tag": "utils",
+    "difficulty": "hard",
+    "name": "Get optional",
+    "problem": "https://tsch.js.org/59/play"
+  },
+  "62": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Type lookup",
+    "problem": "https://tsch.js.org/62/play"
+  },
+  "89": {
+    "tag": "utils",
+    "difficulty": "hard",
+    "name": "Required keys",
+    "problem": "https://tsch.js.org/89/play"
+  },
+  "90": {
+    "tag": "utils",
+    "difficulty": "hard",
+    "name": "Optional keys",
+    "problem": "https://tsch.js.org/90/play"
+  },
+  "106": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Trimleft",
+    "problem": "https://tsch.js.org/106/play"
+  },
+  "108": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Trim",
+    "problem": "https://tsch.js.org/108/play"
+  },
+  "110": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Capitalize",
+    "problem": "https://tsch.js.org/110/play"
+  },
+  "112": {
+    "tag": "template-literal",
+    "difficulty": "hard",
+    "name": "Capitalizewords",
+    "problem": "https://tsch.js.org/112/play"
+  },
+  "114": {
+    "tag": "template-literal",
+    "difficulty": "hard",
+    "name": "Camelcase",
+    "problem": "https://tsch.js.org/114/play"
+  },
+  "116": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Replace",
+    "problem": "https://tsch.js.org/116/play"
+  },
+  "119": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Replaceall",
+    "problem": "https://tsch.js.org/119/play"
+  },
+  "147": {
+    "tag": "template-literal",
+    "difficulty": "hard",
+    "name": "C printf parser",
+    "problem": "https://tsch.js.org/147/play"
+  },
+  "151": {
+    "tag": "template-literal",
+    "difficulty": "extreme",
+    "name": "Query string parser",
+    "problem": "https://tsch.js.org/151/play"
+  },
+  "189": {
+    "tag": "promise",
+    "difficulty": "easy",
+    "name": "Awaited",
+    "problem": "https://tsch.js.org/189/play"
+  },
+  "191": {
+    "tag": "arguments",
+    "difficulty": "medium",
+    "name": "Append argument",
+    "problem": "https://tsch.js.org/191/play"
+  },
+  "213": {
+    "tag": "vue",
+    "difficulty": "hard",
+    "name": "Vue basic props",
+    "problem": "https://tsch.js.org/213/play"
+  },
+  "216": {
+    "tag": "array",
+    "difficulty": "extreme",
+    "name": "Slice",
+    "problem": "https://tsch.js.org/216/play"
+  },
+  "223": {
+    "tag": "utils",
+    "difficulty": "hard",
+    "name": "Isany",
+    "problem": "https://tsch.js.org/223/play"
+  },
+  "268": {
+    "tag": "utils",
+    "difficulty": "easy",
+    "name": "If",
+    "problem": "https://tsch.js.org/268/play"
+  },
+  "270": {
+    "tag": "utils",
+    "difficulty": "hard",
+    "name": "Typed get",
+    "problem": "https://tsch.js.org/270/play"
+  },
+  "274": {
+    "tag": "template-literal",
+    "difficulty": "extreme",
+    "name": "Integers comparator",
+    "problem": "https://tsch.js.org/274/play"
+  },
+  "296": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Permutation",
+    "problem": "https://tsch.js.org/296/play"
+  },
+  "298": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Length of string",
+    "problem": "https://tsch.js.org/298/play"
+  },
+  "300": {
+    "tag": "template-literal",
+    "difficulty": "hard",
+    "name": "String to number",
+    "problem": "https://tsch.js.org/300/play"
+  },
+  "399": {
+    "tag": "tuple",
+    "difficulty": "hard",
+    "name": "Tuple filter",
+    "problem": "https://tsch.js.org/399/play"
+  },
+  "459": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Flatten",
+    "problem": "https://tsch.js.org/459/play"
+  },
+  "472": {
+    "tag": "tuple",
+    "difficulty": "hard",
+    "name": "Tuple to enum object",
+    "problem": "https://tsch.js.org/472/play"
+  },
+  "476": {
+    "tag": "template-literal",
+    "difficulty": "extreme",
+    "name": "Sum",
+    "problem": "https://tsch.js.org/476/play"
+  },
+  "517": {
+    "tag": "template-literal",
+    "difficulty": "extreme",
+    "name": "Multiply",
+    "problem": "https://tsch.js.org/517/play"
+  },
+  "527": {
+    "tag": "object-keys",
+    "difficulty": "medium",
+    "name": "Append to object",
+    "problem": "https://tsch.js.org/527/play"
+  },
+  "529": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Absolute",
+    "problem": "https://tsch.js.org/529/play"
+  },
+  "531": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "String to union",
+    "problem": "https://tsch.js.org/531/play"
+  },
+  "533": {
+    "tag": "array",
+    "difficulty": "easy",
+    "name": "Concat",
+    "problem": "https://tsch.js.org/533/play"
+  },
+  "545": {
+    "tag": "template-literal",
+    "difficulty": "hard",
+    "name": "Printf",
+    "problem": "https://tsch.js.org/545/play"
+  },
+  "553": {
+    "tag": "deep",
+    "difficulty": "hard",
+    "name": "Deep object to unique",
+    "problem": "https://tsch.js.org/553/play"
+  },
+  "599": {
+    "tag": "object",
+    "difficulty": "medium",
+    "name": "Merge",
+    "problem": "https://tsch.js.org/599/play"
+  },
+  "612": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Kebabcase",
+    "problem": "https://tsch.js.org/612/play"
+  },
+  "645": {
+    "tag": "object",
+    "difficulty": "medium",
+    "name": "Diff",
+    "problem": "https://tsch.js.org/645/play"
+  },
+  "651": {
+    "tag": "template-literal",
+    "difficulty": "hard",
+    "name": "Length of string 2",
+    "problem": "https://tsch.js.org/651/play"
+  },
+  "730": {
+    "tag": "union",
+    "difficulty": "hard",
+    "name": "Union to tuple",
+    "problem": "https://tsch.js.org/730/play"
+  },
+  "734": {
+    "tag": "infer",
+    "difficulty": "extreme",
+    "name": "Inclusive range",
+    "problem": "https://tsch.js.org/734/play"
+  },
+  "741": {
+    "tag": "infer",
+    "difficulty": "extreme",
+    "name": "Sort",
+    "problem": "https://tsch.js.org/741/play"
+  },
+  "898": {
+    "tag": "array",
+    "difficulty": "easy",
+    "name": "Includes",
+    "problem": "https://tsch.js.org/898/play"
+  },
+  "925": {
+    "tag": "array",
+    "difficulty": "extreme",
+    "name": "Assert array index",
+    "problem": "https://tsch.js.org/925/play"
+  },
+  "949": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Anyof",
+    "problem": "https://tsch.js.org/949/play"
+  },
+  "956": {
+    "tag": "deep",
+    "difficulty": "hard",
+    "name": "Deeppick",
+    "problem": "https://tsch.js.org/956/play"
+  },
+  "1042": {
+    "tag": "utils",
+    "difficulty": "medium",
+    "name": "Isnever",
+    "problem": "https://tsch.js.org/1042/play"
+  },
+  "1097": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Isunion",
+    "problem": "https://tsch.js.org/1097/play"
+  },
+  "1130": {
+    "tag": "object-keys",
+    "difficulty": "medium",
+    "name": "Replacekeys",
+    "problem": "https://tsch.js.org/1130/play"
+  },
+  "1290": {
+    "tag": "vue",
+    "difficulty": "hard",
+    "name": "Pinia",
+    "problem": "https://tsch.js.org/1290/play"
+  },
+  "1367": {
+    "tag": "object-keys",
+    "difficulty": "medium",
+    "name": "Remove index signature",
+    "problem": "https://tsch.js.org/1367/play"
+  },
+  "1383": {
+    "tag": "union",
+    "difficulty": "hard",
+    "name": "Camelize",
+    "problem": "https://tsch.js.org/1383/play"
+  },
+  "1978": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Percentage parser",
+    "problem": "https://tsch.js.org/1978/play"
+  },
+  "2059": {
+    "tag": "template-literal",
+    "difficulty": "hard",
+    "name": "Drop string",
+    "problem": "https://tsch.js.org/2059/play"
+  },
+  "2070": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Drop char",
+    "problem": "https://tsch.js.org/2070/play"
+  },
+  "2257": {
+    "tag": "math",
+    "difficulty": "medium",
+    "name": "Minusone",
+    "problem": "https://tsch.js.org/2257/play"
+  },
+  "2595": {
+    "tag": "object",
+    "difficulty": "medium",
+    "name": "Pickbytype",
+    "problem": "https://tsch.js.org/2595/play"
+  },
+  "2688": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Startswith",
+    "problem": "https://tsch.js.org/2688/play"
+  },
+  "2693": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Endswith",
+    "problem": "https://tsch.js.org/2693/play"
+  },
+  "2757": {
+    "tag": "object",
+    "difficulty": "medium",
+    "name": "Partialbykeys",
+    "problem": "https://tsch.js.org/2757/play"
+  },
+  "2759": {
+    "tag": "object",
+    "difficulty": "medium",
+    "name": "Requiredbykeys",
+    "problem": "https://tsch.js.org/2759/play"
+  },
+  "2793": {
+    "tag": "readonly",
+    "difficulty": "medium",
+    "name": "Mutable",
+    "problem": "https://tsch.js.org/2793/play"
+  },
+  "2822": {
+    "tag": "tuple",
+    "difficulty": "hard",
+    "name": "Split",
+    "problem": "https://tsch.js.org/2822/play"
+  },
+  "2828": {
+    "tag": "utils",
+    "difficulty": "hard",
+    "name": "Classpublickeys",
+    "problem": "https://tsch.js.org/2828/play"
+  },
+  "2852": {
+    "tag": "object",
+    "difficulty": "medium",
+    "name": "Omitbytype",
+    "problem": "https://tsch.js.org/2852/play"
+  },
+  "2857": {
+    "tag": "utils",
+    "difficulty": "hard",
+    "name": "Isrequiredkey",
+    "problem": "https://tsch.js.org/2857/play"
+  },
+  "2946": {
+    "tag": "object",
+    "difficulty": "medium",
+    "name": "Objectentries",
+    "problem": "https://tsch.js.org/2946/play"
+  },
+  "2949": {
+    "tag": "object",
+    "difficulty": "hard",
+    "name": "Objectfromentries",
+    "problem": "https://tsch.js.org/2949/play"
+  },
+  "3057": {
+    "tag": "array",
+    "difficulty": "easy",
+    "name": "Push",
+    "problem": "https://tsch.js.org/3057/play"
+  },
+  "3060": {
+    "tag": "array",
+    "difficulty": "easy",
+    "name": "Unshift",
+    "problem": "https://tsch.js.org/3060/play"
+  },
+  "3062": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Shift",
+    "problem": "https://tsch.js.org/3062/play"
+  },
+  "3188": {
+    "tag": "tuple",
+    "difficulty": "medium",
+    "name": "Tuple to nested object",
+    "problem": "https://tsch.js.org/3188/play"
+  },
+  "3192": {
+    "tag": "tuple",
+    "difficulty": "medium",
+    "name": "Reverse",
+    "problem": "https://tsch.js.org/3192/play"
+  },
+  "3196": {
+    "tag": "arguments",
+    "difficulty": "medium",
+    "name": "Flip arguments",
+    "problem": "https://tsch.js.org/3196/play"
+  },
+  "3243": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Flattendepth",
+    "problem": "https://tsch.js.org/3243/play"
+  },
+  "3312": {
+    "tag": "tuple",
+    "difficulty": "easy",
+    "name": "Parameters",
+    "problem": "https://tsch.js.org/3312/play"
+  },
+  "3326": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Bem style string",
+    "problem": "https://tsch.js.org/3326/play"
+  },
+  "3376": {
+    "tag": "object",
+    "difficulty": "medium",
+    "name": "Inordertraversal",
+    "problem": "https://tsch.js.org/3376/play"
+  },
+  "4037": {
+    "tag": "string",
+    "difficulty": "hard",
+    "name": "Ispalindrome",
+    "problem": "https://tsch.js.org/4037/play"
+  },
+  "4179": {
+    "tag": "object",
+    "difficulty": "medium",
+    "name": "Flip",
+    "problem": "https://tsch.js.org/4179/play"
+  },
+  "4260": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Nomiwase",
+    "problem": "https://tsch.js.org/4260/play"
+  },
+  "4425": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Greater than",
+    "problem": "https://tsch.js.org/4425/play"
+  },
+  "4471": {
+    "tag": "tuple",
+    "difficulty": "medium",
+    "name": "Zip",
+    "problem": "https://tsch.js.org/4471/play"
+  },
+  "4484": {
+    "tag": "tuple",
+    "difficulty": "medium",
+    "name": "Istuple",
+    "problem": "https://tsch.js.org/4484/play"
+  },
+  "4499": {
+    "tag": "tuple",
+    "difficulty": "medium",
+    "name": "Chunk",
+    "problem": "https://tsch.js.org/4499/play"
+  },
+  "4518": {
+    "tag": "tuple",
+    "difficulty": "medium",
+    "name": "Fill",
+    "problem": "https://tsch.js.org/4518/play"
+  },
+  "4803": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Trim right",
+    "problem": "https://tsch.js.org/4803/play"
+  },
+  "5117": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Without",
+    "problem": "https://tsch.js.org/5117/play"
+  },
+  "5140": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Trunc",
+    "problem": "https://tsch.js.org/5140/play"
+  },
+  "5153": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Indexof",
+    "problem": "https://tsch.js.org/5153/play"
+  },
+  "5181": {
+    "tag": "utils",
+    "difficulty": "hard",
+    "name": "Mutable keys",
+    "problem": "https://tsch.js.org/5181/play"
+  },
+  "5310": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Join",
+    "problem": "https://tsch.js.org/5310/play"
+  },
+  "5317": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Lastindexof",
+    "problem": "https://tsch.js.org/5317/play"
+  },
+  "5360": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Unique",
+    "problem": "https://tsch.js.org/5360/play"
+  },
+  "5423": {
+    "tag": "union",
+    "difficulty": "hard",
+    "name": "Intersection",
+    "problem": "https://tsch.js.org/5423/play"
+  },
+  "5821": {
+    "tag": "utils",
+    "difficulty": "medium",
+    "name": "Maptypes",
+    "problem": "https://tsch.js.org/5821/play"
+  },
+  "6141": {
+    "tag": "math",
+    "difficulty": "hard",
+    "name": "Binary to decimal",
+    "problem": "https://tsch.js.org/6141/play"
+  },
+  "6228": {
+    "tag": "template-literal",
+    "difficulty": "extreme",
+    "name": "Json parser",
+    "problem": "https://tsch.js.org/6228/play"
+  },
+  "7258": {
+    "tag": "object-keys",
+    "difficulty": "hard",
+    "name": "Object key paths",
+    "problem": "https://tsch.js.org/7258/play"
+  },
+  "7544": {
+    "tag": "tuple",
+    "difficulty": "medium",
+    "name": "Construct tuple",
+    "problem": "https://tsch.js.org/7544/play"
+  },
+  "7561": {
+    "tag": "tuple",
+    "difficulty": "extreme",
+    "name": "Subtract",
+    "problem": "https://tsch.js.org/7561/play"
+  },
+  "8767": {
+    "tag": "string",
+    "difficulty": "medium",
+    "name": "Combination",
+    "problem": "https://tsch.js.org/8767/play"
+  },
+  "8804": {
+    "tag": "math",
+    "difficulty": "hard",
+    "name": "Two sum",
+    "problem": "https://tsch.js.org/8804/play"
+  },
+  "8987": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Subsequence",
+    "problem": "https://tsch.js.org/8987/play"
+  },
+  "9142": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Checkrepeatedchars",
+    "problem": "https://tsch.js.org/9142/play"
+  },
+  "9160": {
+    "tag": "object",
+    "difficulty": "hard",
+    "name": "Assign",
+    "problem": "https://tsch.js.org/9160/play"
+  },
+  "9286": {
+    "tag": "string",
+    "difficulty": "medium",
+    "name": "Firstuniquecharindex",
+    "problem": "https://tsch.js.org/9286/play"
+  },
+  "9384": {
+    "tag": "array",
+    "difficulty": "hard",
+    "name": "Maximum",
+    "problem": "https://tsch.js.org/9384/play"
+  },
+  "9616": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Parse url params",
+    "problem": "https://tsch.js.org/9616/play"
+  },
+  "9775": {
+    "tag": "object",
+    "difficulty": "hard",
+    "name": "Capitalize nest object keys",
+    "problem": "https://tsch.js.org/9775/play"
+  },
+  "10969": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Integer",
+    "problem": "https://tsch.js.org/10969/play"
+  },
+  "14080": {
+    "tag": "math",
+    "difficulty": "hard",
+    "name": "Fizzbuzz",
+    "problem": "https://tsch.js.org/14080/play"
+  },
+  "17973": {
+    "tag": "readonly",
+    "difficulty": "medium",
+    "name": "Deepmutable",
+    "problem": "https://tsch.js.org/17973/play"
+  },
+  "18142": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "All",
+    "problem": "https://tsch.js.org/18142/play"
+  },
+  "18220": {
+    "tag": "filter",
+    "difficulty": "medium",
+    "name": "Filter",
+    "problem": "https://tsch.js.org/18220/play"
+  },
+  "19458": {
+    "tag": "template-literal",
+    "difficulty": "hard",
+    "name": "Snakecase",
+    "problem": "https://tsch.js.org/19458/play"
+  },
+  "21104": {
+    "tag": "template-literal",
+    "difficulty": "medium",
+    "name": "Findall",
+    "problem": "https://tsch.js.org/21104/play"
+  },
+  "21220": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Permutations of tuple",
+    "problem": "https://tsch.js.org/21220/play"
+  },
+  "25270": {
+    "tag": "math",
+    "difficulty": "medium",
+    "name": "Transpose",
+    "problem": "https://tsch.js.org/25270/play"
+  },
+  "25747": {
+    "tag": "template literal",
+    "difficulty": "hard",
+    "name": "Isnegativenumber",
+    "problem": "https://tsch.js.org/25747/play"
+  },
+  "26401": {
+    "tag": "JSON",
+    "difficulty": "medium",
+    "name": "Json schema to typescript",
+    "problem": "https://tsch.js.org/26401/play"
+  },
+  "27133": {
+    "tag": "tuple",
+    "difficulty": "medium",
+    "name": "Square",
+    "problem": "https://tsch.js.org/27133/play"
+  },
+  "27152": {
+    "tag": "tuple",
+    "difficulty": "medium",
+    "name": "Triangular number",
+    "problem": "https://tsch.js.org/27152/play"
+  },
+  "27862": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Cartesianproduct",
+    "problem": "https://tsch.js.org/27862/play"
+  },
+  "27932": {
+    "tag": "union",
+    "difficulty": "medium",
+    "name": "Mergeall",
+    "problem": "https://tsch.js.org/27932/play"
+  },
+  "28333": {
+    "tag": "object-keys",
+    "difficulty": "medium",
+    "name": "Public type",
+    "problem": "https://tsch.js.org/28333/play"
+  },
+  "29650": {
+    "tag": "object",
+    "difficulty": "medium",
+    "name": "Extracttoobject",
+    "problem": "https://tsch.js.org/29650/play"
+  },
+  "29785": {
+    "tag": "omit object-keys deep",
+    "difficulty": "medium",
+    "name": "Deep omit",
+    "problem": "https://tsch.js.org/29785/play"
+  },
+  "30301": {
+    "tag": "string",
+    "difficulty": "medium",
+    "name": "Isodd",
+    "problem": "https://tsch.js.org/30301/play"
+  },
+  "30430": {
+    "tag": "array",
+    "difficulty": "medium",
+    "name": "Tower of hanoi",
+    "problem": "https://tsch.js.org/30430/play"
+  }
+}
