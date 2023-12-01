@@ -46,7 +46,8 @@ export default function Home() {
         </a>{" "}
         repository. Since the original repo does not provide a good way to track
         the progress, I made this to keep track of my progress while solving
-        typescript challenges
+        typescript challenges. It uses local storage to store the progress.
+        Please feel free to use it for your learning. Also PRs are welcome 😊.
       </p>
       <UserProgress progress={progress} questions={questions as Question} />
       <QuestionList
