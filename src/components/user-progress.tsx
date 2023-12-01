@@ -32,7 +32,7 @@ export default function UserProgress(props: Props) {
         <div key={difficulty}>
           <div>{`${difficulty[0].toUpperCase()}${difficulty.slice(1)}`}</div>
           <progress
-            className="[&::-webkit-progress-value]:transition-[width] [&::--moz-progress-bar]:transition-[width] [&::-webkit-progress-value]:bg-blue-700 [&::-moz-progress-bar]:bg-blue-700 [&::-webkit-progress-value]:duration-[.5s]"
+            className="[&::-webkit-progress-value]:transition-[width] [&::--moz-progress-bar]:transition-[width] [&::-webkit-progress-value]:bg-blue-700 [&::-moz-progress-bar]:bg-blue-700 [&::-webkit-progress-value]:duration-[.3s]"
             id="easy"
             max={totalCount.easy}
             value={completedCount[difficulty]}
