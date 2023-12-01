@@ -43,7 +43,7 @@ export default function Home() {
       <p className="max-w-2xl my-4">
         This is a companion app for{" "}
         <a
-          className="text-blue-600 underline"
+          className="text-blue-600 dark:text-blue-500 underline"
           href="https://github.com/type-challenges/type-challenges"
         >
           Type challenges
