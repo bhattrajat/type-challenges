@@ -36,7 +36,7 @@ export default function QuestionList(props: Props) {
             <td key={id}>
               <input
                 type="checkbox"
-                className="w-4 h-4 accent-blue-600 dark:accent-blue-500"
+                className="w-4 h-4 accent-blue-700 dark:accent-blue-500"
                 onChange={(e) => handleChallenge(e, id)}
                 name={id}
                 checked={Boolean(props.progress && props.progress[id])}
@@ -45,7 +45,7 @@ export default function QuestionList(props: Props) {
             </td>
             <td>
               <a
-                className="text-blue-600 dark:text-blue-500 underline"
+                className="text-blue-700 dark:text-blue-500 underline"
                 target="_blank"
                 href={question.problem}
               >

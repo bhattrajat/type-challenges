@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen mx-auto flex-col items-center justify-between p-4 lg:p-8">
-      <header className="mb-4 p-4 border-b-2 border-white flex w-full items-center justify-between text-center">
+      <header className="mb-4 p-4 border-b-2 border-black dark:border-white flex w-full items-center justify-between text-center">
         <h1 className="text-3xl mb-2">Type Challenges</h1>
 
         <a
@@ -43,7 +43,7 @@ export default function Home() {
       <p className="max-w-2xl my-4">
         This is a companion app for{" "}
         <a
-          className="text-blue-600 dark:text-blue-500 underline"
+          className="text-blue-700 dark:text-blue-500 underline"
           href="https://github.com/type-challenges/type-challenges"
         >
           Type challenges
@@ -59,7 +59,7 @@ export default function Home() {
         progress={progress}
         questions={questions as Question}
       />
-      <footer className="border-t-2 border-white p-4 center">
+      <footer className="border-t-2 mt-4 border-black dark:border-white p-4 center">
         Created with Next.js & Tailwind CSS
       </footer>
     </main>
