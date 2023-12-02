@@ -60,7 +60,7 @@ export default function QuestionsFilter() {
           name="search"
         />
         <Popover className="relative">
-          <Popover.Button className="flex items-center rounded border-[1px] border-black px-4 py-2">
+          <Popover.Button className="flex items-center rounded border-[1px] border-black px-4 py-2 dark:border-slate-600 dark:bg-slate-900 dark:ring-1 dark:ring-slate-500">
             Difficulty <ChevronDownIcon className="ml-4 h-4 w-4" />
           </Popover.Button>
 
@@ -82,7 +82,7 @@ export default function QuestionsFilter() {
           </Popover.Panel>
         </Popover>
         <button
-          className="rounded bg-black px-4 py-2 text-white dark:bg-slate-900 dark:ring-1 dark:ring-slate-500"
+          className="rounded bg-black px-4 py-2 text-white dark:ring-1 dark:ring-slate-500"
           type="submit"
         >
           Filter
