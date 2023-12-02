@@ -1,15 +1,16 @@
 "use client";
 
-import { Progress, Question, SearchParams } from "@/app/types";
+import { Progress, Question } from "@/app/types";
+import { useSearchParams } from "next/navigation";
 import { ChangeEvent, Dispatch, SetStateAction } from "react";
 
 type Props = {
   progress: Progress;
   questions: Question;
-  searchParams: SearchParams;
   setProgress: Dispatch<SetStateAction<Progress>>;
 };
 export default function QuestionList(props: Props) {
+  const searchParams = useSearchParams();
   const handleChallenge = (e: ChangeEvent<HTMLInputElement>, id: string) => {
     if (e.target.checked) {
       const updatedProgress = { ...props.progress, [id]: 1 } as const;
@@ -21,9 +22,10 @@ export default function QuestionList(props: Props) {
       localStorage.setItem("progress", JSON.stringify(remaining));
     }
   };
-  const { search, difficulty } = props.searchParams;
-  const difficultyArr =
-    typeof difficulty === "string" ? [difficulty] : difficulty;
+  const search = searchParams.get("search");
+  const difficulties = searchParams.getAll("difficulty");
+  console.log(search);
+  console.log(difficulties);
   const filteredQuestionsByName =
     search && typeof search === "string"
       ? Object.entries(props.questions).filter(([_, val]) =>
@@ -31,12 +33,11 @@ export default function QuestionList(props: Props) {
         )
       : Object.entries(props.questions);
   const filteredQuestionsByDifficulty =
-    difficultyArr && Array.isArray(difficultyArr)
+    difficulties.length > 0
       ? filteredQuestionsByName.filter(([_, val]) =>
-          difficultyArr.includes(val.difficulty),
+          difficulties.includes(val.difficulty),
         )
       : filteredQuestionsByName;
-  console.log(difficulty);
   if (filteredQuestionsByDifficulty.length === 0) {
     return (
       <p>

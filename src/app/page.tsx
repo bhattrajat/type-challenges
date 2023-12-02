@@ -1,15 +1,13 @@
 "use client";
 
-import { Progress, Question, SearchParams } from "@/app/types";
+import { Progress, Question } from "@/app/types";
 import QuestionsFilter from "@/components/questions-filter";
 import QuestionList from "@/components/questions-list";
 import UserProgress from "@/components/user-progress";
 import questions from "@/data/questions.json";
 import { useEffect, useState } from "react";
 
-export const dynamic = "force-dynamic";
-
-export default function Home({ searchParams }: { searchParams: SearchParams }) {
+export default function Home() {
   const [progress, setProgress] = useState<Progress>(null);
 
   useEffect(() => {
@@ -22,7 +20,6 @@ export default function Home({ searchParams }: { searchParams: SearchParams }) {
       <UserProgress progress={progress} questions={questions as Question} />
       <QuestionsFilter />
       <QuestionList
-        searchParams={searchParams}
         setProgress={setProgress}
         progress={progress}
         questions={questions as Question}
