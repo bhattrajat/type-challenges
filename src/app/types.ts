@@ -10,3 +10,7 @@ export type Question = {
 export type Progress = {
   [id: string]: 1;
 } | null;
+
+export type SearchParams = {
+  [key: string]: string | string[] | undefined;
+};
