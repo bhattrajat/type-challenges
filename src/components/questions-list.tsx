@@ -24,8 +24,6 @@ export default function QuestionList(props: Props) {
   };
   const search = searchParams.get("search");
   const difficulties = searchParams.getAll("difficulty");
-  console.log(search);
-  console.log(difficulties);
   const filteredQuestionsByName =
     search && typeof search === "string"
       ? Object.entries(props.questions).filter(([_, val]) =>

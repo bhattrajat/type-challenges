@@ -21,7 +21,7 @@ export default function QuestionsFilter() {
       hard: searchParams.getAll("difficulty").includes("hard"),
     });
   }, [searchParams]);
-  console.log(searchParams);
+
   const pathname = usePathname();
   const router = useRouter();
 
@@ -39,10 +39,9 @@ export default function QuestionsFilter() {
     const searchFilterValue = formData.get("search") as string;
     if (searchFilterValue) params.set("search", searchFilterValue);
     else params.delete("search");
+    params.delete("difficulty");
     Object.entries(difficultyFilter).forEach(([key, val]) => {
-      if (val && !params.getAll("difficulty").includes(key))
-        params.append("difficulty", key);
-      else params.delete("difficulty", key);
+      if (val) params.append("difficulty", key);
     });
     router.push(pathname + "?" + params.toString());
   };
