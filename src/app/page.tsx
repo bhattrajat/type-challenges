@@ -7,6 +7,8 @@ import UserProgress from "@/components/user-progress";
 import questions from "@/data/questions.json";
 import { useEffect, useState } from "react";
 
+export const dynamic = "force-dynamic";
+
 export default function Home({ searchParams }: { searchParams: SearchParams }) {
   const [progress, setProgress] = useState<Progress>(null);
 
